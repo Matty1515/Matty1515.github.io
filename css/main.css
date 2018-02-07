@@ -1,0 +1,109 @@
+﻿body {
+	font-family: Georgia, serif;
+	background-image: url('../img/RugbyWall4.jpg');
+	background-repeat: no-repeat;
+}
+
+/* Header */
+
+#RugbyHeader {
+	padding-bottom: 780px;
+	text-align: center;
+	font-family: Georgia, serif;
+}
+
+#RugbyHeader h1 {
+	font-size: 450%;
+}
+
+/* Table */
+
+#RugbyTable {
+	padding-bottom: 20px;
+}
+
+#TableHeading {
+	text-align: left;
+}
+
+.table-responsive {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+thead {
+	background-color: #4c7dae;
+	padding: 100px;
+	font-family: Georgia, serif;
+	color: white;
+}
+
+/* Cards */
+
+#FixturesHeading {
+	text-align: left;
+}
+
+#cardfolder {
+	padding-bottom: 100px;
+}
+
+.card {
+	width: 250px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+.cardheader {
+    background-color: #4c7dae;
+    color: white;
+    padding: 50px;
+}
+
+.cardcontainer {
+    padding: 10px;
+    text-align: center;
+}
+
+.card h1 {
+	font-size: 90px;
+	font-family: Georgia, serif;
+}
+
+.card b {
+	text-decoration: underline;
+}
+
+/* Footer */
+
+footer {
+	background-color: grey;
+	text-align: center;
+	padding: 50px;
+}
+
+footer h1 {
+	color: white;
+	font-size: 50px;
+}
+
+#EmailButton {
+	padding-top: 30px;
+}
+
+#DonateButton {
+	padding-top: 30px;
+}
+
+#GithubButton {
+	padding-top: 30px;
+}
+	
+	
+	
+	
+
+
+
+
+	

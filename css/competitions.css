@@ -1,0 +1,36 @@
+body {
+	font-family: Georgia, serif;
+}
+
+.navbar-header {
+	border-right: 1px solid;
+}
+
+.container {
+	border-radius: 7px;
+	padding: 10px;
+}
+
+.table-responsive {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+h1 {
+	text-align: center;
+}
+
+#FridayCard {
+	width: 250px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	padding: 10px;
+}
+
+#FridayCard b {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+}
