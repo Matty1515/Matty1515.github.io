@@ -9,11 +9,11 @@
 #RugbyHeader {
 	padding-bottom: 780px;
 	text-align: center;
-	font-family: Georgia, serif;
 }
 
 #RugbyHeader h1 {
 	font-size: 450%;
+	font-family: 'Alfa Slab One', cursive;
 }
 
 /* Table */
@@ -98,8 +98,6 @@ footer h1 {
 #GithubButton {
 	padding-top: 30px;
 }
-	
-	
 	
 	
 
