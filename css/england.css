@@ -1,0 +1,64 @@
+p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.3em;
+}
+
+b {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.3em;
+}
+
+h3 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#fixtures {
+	padding: 10px;
+}
+
+/* Table */
+
+.table-responsive {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+thead {
+	background-color: #4c7dae;
+	padding: 100px;
+	font-family: Georgia, serif;
+	color: white;
+}
+
+#RugbyHeader {
+	padding-bottom: 50px;
+}
+
+#Outro {
+	padding-bottom: 50px;
+}
+
+/* Footer */
+
+footer {
+	background-color: #e6e6e6;
+	text-align: center;
+	padding: 50px;
+}
+
+footer h1 {
+	font-size: 40px;
+}
+
+#EmailButton {
+	padding-top: 30px;
+}
+
+#DonateButton {
+	padding-top: 30px;
+}
+
+#GithubButton {
+	padding-top: 30px;
+}
