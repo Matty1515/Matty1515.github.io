@@ -77,13 +77,12 @@ thead {
 /* Footer */
 
 footer {
-	background-color: grey;
+	background-color: #e6e6e6;
 	text-align: center;
 	padding: 50px;
 }
 
 footer h1 {
-	color: white;
 	font-size: 40px;
 }
 
@@ -98,7 +97,6 @@ footer h1 {
 #GithubButton {
 	padding-top: 30px;
 }
-	
 	
 
 

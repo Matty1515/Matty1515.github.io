@@ -39,6 +39,10 @@ thead {
 	padding-bottom: 50px;
 }
 
+#Product {
+	border: 1px;
+}
+
 /* Footer */
 
 footer {
