@@ -97,6 +97,16 @@ footer h1 {
 #GithubButton {
 	padding-top: 30px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#TopButton {
+	padding-top: 50px;
+}
 	
 
 
