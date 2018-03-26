@@ -269,45 +269,66 @@
 </div>
 
 <footer>
+ <div id="RugbyFooter">
   <div class="container-fluid">
     <div class="row">
-	  <div class="col-sm-2">
-	    <div id="EmailButton">
-		  <button type="button" class="btn btn-default" onclick='document.getElementById("email").innerHTML = "imhullu15@gmail.com"'><p id="email"><span class="glyphicon glyphicon-envelope"></span>Contact</p></button>
-        </div>
-	  </div>
-	  <div class="col-sm-2">
-		<div id="DonateButton">
-		  <button type="button" class="btn btn-default" onclick='document.getElementById("donate").innerHTML = "1Dk5UnJWtXGFfkdqJKhmELhgqfAD1Ct9Kh"'><p id="donate"><span class="glyphicon glyphicon-bitcoin"></span>Donate</p></button>
-        </div>
-	  </div>
-	  <div class="col-sm-2">
-        <div id="GithubButton">
-		  <a type="button" class="btn btn-default" href="https://github.com/Matty1515/Matty1515.github.io"><p id="github"><i class="fa fa-github"></i>GitHub</p></a>
-        </div>
-	  </div>
-	  <div class="col-sm-6">
-	    <h1>English Rose Rugby</h1>
-	  </div>
-	</div>
-	<div class="row">
-	  <div class="col-sm-6">
-	    <div id="TopButton">
-	      <a href="#top"><span class="glyphicon glyphicon-chevron-up"></span>Back to the top</a>
-		</div>
-	  </div>
-	  <div class="col-sm-6">
-	    <ul>
+	  <div class="col-sm-4">
+	    <b>Web Pages</b>
+	    <ul class="list-unstyled"
 		  <li><a href="http://englishroserugby.com/england/rugby_world_cup.html">Rugby World Cup</a></li>
 		  <li><a href="http://englishroserugby.com/england/england_rugby.html">England Rugby</a></li>
 		  <li><a href="http://englishroserugby.com/">Aviva Premiership</a></li>
+		</ul>
+	  </div>
+	  <div class="col-sm-4">
+	    <b>Product Reviews</b>
+	    <ul class="list-unstyled"
 		  <li><a href="http://englishroserugby.com/reviews/top_3_gum_shields.html">Top 3 Gum Shields</a></li>
 		  <li><a href="http://englishroserugby.com/reviews/top_3_rugby_balls.html">Top 3 Rugby Balls</a></li>
 		</ul>
 	  </div>
+	  <div class="col-sm-4">
+	    <b>Useful Links</b>
+	    <ul class="list-unstyled">
+		  <li><a href="http://laws.worldrugby.org/?law=showallbynumbers">World Rugby Laws</a></li>
+		  <li><a href="https://en.wikipedia.org/wiki/Rugby_union_positions">Rugby Union Positions</a></li>
+		</ul>
+	  </div>
+	</div>
+	<div id="SocialButtons">
+	  <ul class="list-unstyled list-inline">
+	    <a href="mailto:imhullu15@gmail.com?Subject=English%20Rose%20Rugby" target="_top" class="fa fa-envelope"></a>
+		<a class="fa fa-bitcoin" data-toggle="modal" data-target="#rugbyModal"></a>
+		<a href="https://github.com/Matty1515/Matty1515.github.io" target="_blank" class="fa fa-github"></a>
+	  </ul>
 	</div>
   </div>
+ </div>
 </footer>
+
+<div id="TopButton">
+  <div class="container-fluid">
+	<a href="#top"><span class="glyphicon glyphicon-chevron-up"></span>Back to the top</a>
+  </div>
+</div>
+
+<div id="rugbyModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Donate Bitcoin</h4>
+      </div>
+      <div class="modal-body">
+        <p>1Dk5UnJWtXGFfkdqJKhmELhgqfAD1Ct9Kh</p>
+		<p>Thank you!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
