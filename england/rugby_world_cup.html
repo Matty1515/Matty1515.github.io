@@ -2,51 +2,65 @@
 <html>
 <head>
   <title>Rugby World Cup - England Fixtures & Results | EnglishRoseRugby</title>
-  <link type="text/css" rel="stylesheet" href="../css/england.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alfa+Slab+One">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="../css/subpage.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
   <meta name="description" content="England national rugby union team at the 2019 Rugby World Cup">
   <meta name="author" content="Matty1515">
   <link rel="shortcut icon" href="../img/favicon2.ico" type="image/x-icon">
   <link rel="icon" href="../img/favicon2.ico" type="image/x-icon">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alfa+Slab+One">
 </head>
 <body>
 
-<!--Do Timeline and Title. Fix table.-->
+<!--'Rwc' is the ID prefix for this page-->
 
 <a id="top"></a>
 
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#rugbyNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      <a class="navbar-brand" href="../index.html">English Rose Rugby</a>
-    </div>
-    <div class="collapse navbar-collapse" id="rugbyNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="rugby_world_cup.html">Rugby World Cup</a></li>
-        <li><a href="england_rugby.html">England Rugby</a></li> 
-        <li><a href="../index.html">Aviva Premiership</a></li> 
-      </ul>
-    </div>
+<nav class="navbar navbar-expand-md bg-#light navbar-light">
+<div class="container">
+  <a class="navbar-brand" href="http://englishroserugby.com/">English Rose Rugby</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+	  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">England</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="http://englishroserugby.com/england/england_rugby.html">Fixtures & Results</a>
+          <a class="dropdown-item" href="http://englishroserugby.com/england/rugby_world_cup.html">Rugby World Cup</a>
+        </div>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="http://englishroserugby.com/">Premiership</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Reviews</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="http://englishroserugby.com/reviews/top_3_gum_shields.html">Best Gum Shields</a>
+          <a class="dropdown-item" href="http://englishroserugby.com/reviews/top_3_rugby_balls.html">Best Rugby Balls</a>
+        </div>
+      </li>	  
+    </ul>
   </div>
+</div>
 </nav>
 
-<div id="RugbyHeader">
-  <div class="container">
-    <div class="page-header">
-      <h1>Rugby World Cup</h1>
+<div id="RwcJumbotron">
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-1" >Rugby World Cup</h1>
+	  <br>
+	  <h3>England at the Rugby World Cup</h3>
+	  <br>
     </div>
-    <h2>England at the Rugby World Cup</h2>
   </div>
 </div>
 
@@ -71,7 +85,7 @@
   <div class="container">
     <h3>Qualification</h3>
 	<p>The top three teams from each of the 2015 Rugby World Cup pool stages qualify for this world cup. So, Australia, Wales and England were the top three teams from Pool A so they automatically qualify. Japan also automatically qualify as they are the hosts and the remaining teams are made up of regional slots and various play-offs. Below is an image explaining the qualification process in more detail (credit to Alexei17777 from <a href="https://en.wikipedia.org/wiki/File:Rugby_World_Cup_2019_Qualification_illustrated_v2.png">Wikipedia</a> for creating this image).</p>
-	<img class="img-responsive" alt="Rugby World Cup 2019 qualification illustrated" src="https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Rugby_World_Cup_2019_Qualification_illustrated_v2.png/894px-Rugby_World_Cup_2019_Qualification_illustrated_v2.png">
+	<img class="img-fluid" alt="Rugby World Cup 2019 qualification illustrated" src="https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Rugby_World_Cup_2019_Qualification_illustrated_v2.png/894px-Rugby_World_Cup_2019_Qualification_illustrated_v2.png">
     <p>Anyway, England have already qualified as have all of the other home nations.</p> 
   </div>
 </div>
@@ -110,7 +124,7 @@
 		  <td>Georgia</td>
 		</tr>
 		<tr>
-	      <td>Europe 1</td>
+	      <td>Russia</td>
 		  <td>Africa 1</td>
 		  <td>United States</td>
 		  <td>Fiji</td>
@@ -126,6 +140,7 @@
   </div>
  </div>
 </div>
+<br>
 
 <div id="RwcFixtures">
   <div class="container">
@@ -141,6 +156,7 @@
 	<p>If England finish 1st or 2nd in their group then they will progress to the quarterfinals. The winner of Pool C will face the runner up of Pool D and the runner up of Pool C will face the winner of Pool D. Australia and Wales are the favorites to qualify from Pool D so they may be England's potential opposition should they qualify. Pool C vs Pool D quarterfinals will take place in the Oita Stadium either on the 19th or 20th of October</p>
   </div>
 </div>
+<br>
 
 <div id="Outro">
   <div class="container">
@@ -148,31 +164,66 @@
 </div>
 
 <footer>
+ <div id="RugbyFooter">
   <div class="container-fluid">
     <div class="row">
-	  <div class="col-sm-2">
-	    <div id="EmailButton">
-		  <button type="button" class="btn btn-default" onclick='document.getElementById("email").innerHTML = "imhullu15@gmail.com"'><p id="email"><span class="glyphicon glyphicon-envelope"></span>Contact</p></button>
-        </div>
+	  <div class="col-md-4 col-sm-6">
+	    <b>Webpages</b>
+	    <ul class="list-unstyled"
+		  <li><a href="http://englishroserugby.com/england/rugby_world_cup.html">Rugby World Cup</a></li>
+		  <li><a href="http://englishroserugby.com/england/england_rugby.html">England Rugby</a></li>
+		  <li><a href="http://englishroserugby.com/">Aviva Premiership</a></li>
+		</ul>
 	  </div>
-	  <div class="col-sm-2">
-		<div id="DonateButton">
-		  <button type="button" class="btn btn-default" onclick='document.getElementById("donate").innerHTML = "1Dk5UnJWtXGFfkdqJKhmELhgqfAD1Ct9Kh"'><p id="donate"><span class="glyphicon glyphicon-bitcoin"></span>Donate</p></button>
-        </div>
+	  <div class="col-md-4 col-sm-6">
+	    <b>Product Reviews</b>
+	    <ul class="list-unstyled"
+		  <li><a href="http://englishroserugby.com/reviews/top_3_gum_shields.html">Top 3 Gum Shields</a></li>
+		  <li><a href="http://englishroserugby.com/reviews/top_3_rugby_balls.html">Top 3 Rugby Balls</a></li>
+		</ul>
 	  </div>
-	  <div class="col-sm-2">
-        <div id="GithubButton">
-		  <a type="button" class="btn btn-default" href="https://github.com/Matty1515/Matty1515.github.io"><p id="github"><i class="fa fa-github"></i>GitHub</p></a>
-        </div>
-	  </div>
-	  <div class="col-sm-6">
-	    <h1>English Rose Rugby</h1>
+	  <div class="col-md-4 col-sm-6">
+	    <b>Useful Links</b>
+	    <ul class="list-unstyled">
+		  <li><a href="http://laws.worldrugby.org/?law=showallbynumbers">World Rugby Laws</a></li>
+		  <li><a href="https://en.wikipedia.org/wiki/Rugby_union_positions">Rugby Union Positions</a></li>
+		</ul>
 	  </div>
 	</div>
-    <a href="#top">
-    <span class="glyphicon glyphicon-chevron-up"></span>Back to the top</a>
+	<div id="SocialButtons">
+	  <ul class="list-unstyled list-inline">
+	    <a href="mailto:imhullu15@gmail.com?Subject=English%20Rose%20Rugby" target="_top" class="fa fa-envelope"></a>
+		<a class="fa fa-bitcoin" data-toggle="modal" data-target="#rugbyModal"></a>
+		<a href="https://github.com/Matty1515/Matty1515.github.io" target="_blank" class="fa fa-github"></a>
+	  </ul>
+	</div>
   </div>
+ </div>
 </footer>
+
+<div id="TopButton">
+  <div class="container-fluid">
+	<a href="#top"><span class="fa fa-chevron-up"></span>Back to the top</a>
+  </div>
+</div>
+
+<div class="modal fade" id="rugbyModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title">Donate Bitcoin</h3>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>1Dk5UnJWtXGFfkdqJKhmELhgqfAD1Ct9Kh</p>
+		<p>Thank you!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div> 
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
