@@ -2,51 +2,63 @@
 <html>
 <head>
   <title>England Rugby - Fixtures & Results 2018 | EnglishRoseRugby</title>
-  <link type="text/css" rel="stylesheet" href="../css/england.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alfa+Slab+One">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="../css/subpage.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
   <meta name="description" content="Results and upcoming fixtures for the England national rugby union team">
   <meta name="author" content="Matty1515">
   <link rel="shortcut icon" href="../img/favicon2.ico" type="image/x-icon">
   <link rel="icon" href="../img/favicon2.ico" type="image/x-icon">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alfa+Slab+One">
 </head>
 <body>
 
-<!--Do CSS and Title-->
+<!--'Eng' is the ID prefix for this page-->
 
 <a id="top"></a>
 
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#rugbyNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      <a class="navbar-brand" href="../index.html">English Rose Rugby</a>
-    </div>
-    <div class="collapse navbar-collapse" id="rugbyNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="rugby_world_cup.html">Rugby World Cup</a></li>
-        <li class="active"><a href="england_rugby.html">England Rugby</a></li> 
-        <li><a href="../index.html">Aviva Premiership</a></li> 
-      </ul>
-    </div>
+<nav class="navbar navbar-expand-md navbar-light">
+<div class="container">
+  <a class="navbar-brand" href="http://englishroserugby.com/">English Rose Rugby</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+	  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">England</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="http://englishroserugby.com/england/england_rugby.html">Fixtures & Results</a>
+          <a class="dropdown-item" href="http://englishroserugby.com/england/rugby_world_cup.html">Rugby World Cup</a>
+        </div>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="http://englishroserugby.com/">Premiership</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Reviews</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="http://englishroserugby.com/reviews/top_3_gum_shields.html">Best Gum Shields</a>
+          <a class="dropdown-item" href="http://englishroserugby.com/reviews/top_3_rugby_balls.html">Best Rugby Balls</a>
+        </div>
+      </li>	  
+    </ul>
   </div>
+</div>
 </nav>
 
-<div id="RugbyHeader">
+<div class="jumbotron jumbotron-fluid" id="EngJumbotron">
   <div class="container">
-    <div class="page-header">
-      <h1>England Rugby</h1>
-    </div>
-    <h2>Results and upcoming fixtures for the England National Team</h2>
+    <h1 class="display-1" >England Rugby</h1>
+	<br>
+	<h3>Results and fixtures for the England National Team</h3>
+	<br>
   </div>
 </div>
 
@@ -86,37 +98,72 @@
 <div id="Outro">
   <div class="container">
     <h3>Results and Fixtures 2019</h3>
-    <p>2019 is an important year for all rugby nations as the Rugby World Cup will be played in September. England will first compete in the Six Nations and will look to bounce back after failing to win in 2018. This will be a pivotal year for Eddie Jones and the England team as the expectation to win these tournaments will be high. If you want to read more about the Rugby World Cup click here.</p>
+    <p>2019 is an important year for all rugby nations as the Rugby World Cup will be played in September. England will first compete in the Six Nations and will look to bounce back after failing to win in 2018. This will be a pivotal year for Eddie Jones and the England team as the expectation to win these tournaments will be high. If you want to read more about the Rugby World Cup <a href="http://englishroserugby.com/england/rugby_world_cup.html">click here</a>.</p>
   </div>
-<!--Add 'click here' link -->
 </div>
+<br>
 
 <footer>
+ <div id="RugbyFooter">
   <div class="container-fluid">
     <div class="row">
-	  <div class="col-sm-2">
-	    <div id="EmailButton">
-		  <button type="button" class="btn btn-default" onclick='document.getElementById("email").innerHTML = "imhullu15@gmail.com"'><p id="email"><span class="glyphicon glyphicon-envelope"></span>Contact</p></button>
-        </div>
+	  <div class="col-md-4 col-sm-6">
+	    <b>Webpages</b>
+	    <ul class="list-unstyled"
+		  <li><a href="http://englishroserugby.com/england/rugby_world_cup.html">Rugby World Cup</a></li>
+		  <li><a href="http://englishroserugby.com/england/england_rugby.html">England Rugby</a></li>
+		  <li><a href="http://englishroserugby.com/">Aviva Premiership</a></li>
+		</ul>
 	  </div>
-	  <div class="col-sm-2">
-		<div id="DonateButton">
-		  <button type="button" class="btn btn-default" onclick='document.getElementById("donate").innerHTML = "1Dk5UnJWtXGFfkdqJKhmELhgqfAD1Ct9Kh"'><p id="donate"><span class="glyphicon glyphicon-bitcoin"></span>Donate</p></button>
-        </div>
+	  <div class="col-md-4 col-sm-6">
+	    <b>Product Reviews</b>
+	    <ul class="list-unstyled"
+		  <li><a href="http://englishroserugby.com/reviews/top_3_gum_shields.html">Top 3 Gum Shields</a></li>
+		  <li><a href="http://englishroserugby.com/reviews/top_3_rugby_balls.html">Top 3 Rugby Balls</a></li>
+		</ul>
 	  </div>
-	  <div class="col-sm-2">
-        <div id="GithubButton">
-		  <a type="button" class="btn btn-default" href="https://github.com/Matty1515/Matty1515.github.io"><p id="github"><i class="fa fa-github"></i>GitHub</p></a>
-        </div>
-	  </div>
-	  <div class="col-sm-6">
-	    <h1>English Rose Rugby</h1>
+	  <div class="col-md-4 col-sm-6">
+	    <b>Useful Links</b>
+	    <ul class="list-unstyled">
+		  <li><a href="http://laws.worldrugby.org/?law=showallbynumbers">World Rugby Laws</a></li>
+		  <li><a href="https://en.wikipedia.org/wiki/Rugby_union_positions">Rugby Union Positions</a></li>
+		</ul>
 	  </div>
 	</div>
-    <a href="#top">
-    <span class="glyphicon glyphicon-chevron-up"></span>Back to the top</a>
+	<div id="SocialButtons">
+	  <ul class="list-unstyled list-inline">
+	    <a href="mailto:imhullu15@gmail.com?Subject=English%20Rose%20Rugby" target="_top" class="fa fa-envelope"></a>
+		<a class="fa fa-bitcoin" data-toggle="modal" data-target="#rugbyModal"></a>
+		<a href="https://github.com/Matty1515/Matty1515.github.io" target="_blank" class="fa fa-github"></a>
+	  </ul>
+	</div>
   </div>
+ </div>
 </footer>
+
+<div id="TopButton">
+  <div class="container-fluid">
+	<a href="#top"><span class="fa fa-chevron-up"></span>Back to the top</a>
+  </div>
+</div>
+
+<div class="modal fade" id="rugbyModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title">Donate Bitcoin</h3>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>1Dk5UnJWtXGFfkdqJKhmELhgqfAD1Ct9Kh</p>
+		<p>Thank you!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div> 
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
