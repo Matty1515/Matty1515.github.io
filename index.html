@@ -2,19 +2,20 @@
 <html>
 <head>
   <title>EnglishRoseRugby | Aviva Premiership Final</title>
-  <link type="text/css" rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alfa+Slab+One">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="css/subpage.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
   <meta name="description" content="EnglishRoseRugby | Rugby playoffs fixtures and results for the Premiership Rugby semi finals 2018. Also upcoming fixtures, results and league table from the Aviva English Premiership rugby union competition">
   <meta name="author" content="Matty1515">
-  <meta name="google-site-verification" content="5AlzQ-PhIMzw1_x6EWjjsqivIHvGussK2qLXccrr_mU" />
   <link rel="shortcut icon" href="img/favicon2.ico" type="image/x-icon">
   <link rel="icon" href="img/favicon2.ico" type="image/x-icon">
+  <meta name="google-site-verification" content="5AlzQ-PhIMzw1_x6EWjjsqivIHvGussK2qLXccrr_mU" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -22,32 +23,42 @@
 
 <a id="top"></a>
 
-<nav class="navbar">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#rugbyNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      <a class="navbar-brand" href="index.html">English Rose Rugby</a>
-    </div>
-    <div class="collapse navbar-collapse" id="rugbyNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="england/rugby_world_cup.html">Rugby World Cup</a></li>
-        <li><a href="england/england_rugby.html">England Rugby</a></li> 
-        <li><a href="index.html">Aviva Premiership</a></li> 
-      </ul>
-    </div>
+<nav class="navbar navbar-expand-md navbar-light">
+<div class="container">
+  <a class="navbar-brand" href="http://englishroserugby.com/">English Rose Rugby</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+	  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">England</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="http://englishroserugby.com/england/england_rugby.html">Fixtures & Results</a>
+          <a class="dropdown-item" href="http://englishroserugby.com/england/rugby_world_cup.html">Rugby World Cup</a>
+        </div>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="http://englishroserugby.com/">Premiership</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Reviews</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="http://englishroserugby.com/reviews/top_3_gum_shields.html">Best Gum Shields</a>
+          <a class="dropdown-item" href="http://englishroserugby.com/reviews/top_3_rugby_balls.html">Best Rugby Balls</a>
+        </div>
+      </li>	  
+    </ul>
   </div>
+</div>
 </nav>
 
-<div id="RugbyHeader">
+<div class="jumbotron jumbotron-fluid" id="PremJumbotron">
   <div class="container">
-    <div class="page-header">
-      <h1>English Rose Rugby</h1>
-    </div>
-    <h3>Tables, Fixtures & Playoffs from the Aviva Premiership</h3>
+    <h1 class="display-1" >English Rose Rugby</h1>
+	<br>
+	<h3>Tables & Fixtures from the Aviva Premiership</h3>
+	<br>
   </div>
 </div>
 
@@ -57,9 +68,8 @@
   </div>
 </div>
 
-<div id="RugbyTable">
-  <div class="container">
-  <div class="table-responsive">
+<div class="container">
+  <div class="table-responsive" id="PremTable">
     <table class="table table-hover">
 	  <thead>
 	    <tr>
@@ -197,23 +207,24 @@
 	  </tbody>
     </table>
   </div>
-  </div>
 </div>
+<br>
 
 <div id="EuropeanQualification">
   <div class="container">
-    <b>European Qualification</b>
+    <h3>European Qualification</h3>
 	<p>The top six teams qualify for next season's European Rugby Champions Cup and the team that finishes in 7th place will advance to a playoff round where they can compete for a place. Teams that haven't qualified for the Champions Cup will play in next season's European Rugby Challenge Cup instead.</p>
   </div>
 </div>
 
 <div id="Relegation">
   <div class="container">
-    <b>Relegation</b>
+    <h3>Relegation</h3>
 	<p>The club at the bottom of the table after the regular season ends is relegated to the RFU Championship. They will be replaced by the winner of Championship assuming the promoted club meets the Minimum Standards Criteria. If the criteria is not met then no promotion/relegation will take place.</p>
     <i>On April 7th 2018, Bristol Rugby (now Bristol Bears) secured promotion to the Aviva Premiership.</i>
   </div>
 </div>
+<br>
 
 <div id="FixturesHeading">
   <div class="container">
@@ -223,51 +234,55 @@
   </div>
 </div>
 
-<div id="cardfolder">
+<div id="PremiershipCards">
   <div class="container">
     <div class="row">
-	  <div class="col-lg-4 col-sm-6">
+	  <div class="col-lg-4 col-md-6">
 	    <div class="card">
-          <div class="cardheader">
-            <h1>Fri</h1>
+          <img class="card-img-top" src="img/card-image4.jpg" alt="Card image" style="width:100%">
+		  <div class="card-img-overlay">
+            <h1 class="display-1">Fri</h4>
           </div>
-          <div class="cardcontainer">
-            <b>25th May 2018</b>
-            <p>n/a</p>
+          <div class="card-body">
+            <h3 class="card-title">25th May 2018</h4>
+            <p class="card-text">n/a</p>
           </div>
-        </div>    
+        </div>
 	  </div>
-	  <div class="col-lg-4 col-sm-6">
-	    <div class="card">
-          <div class="cardheader">
-            <h1>Sat</h1>
+	  <div class="col-lg-4 col-md-6">
+	    <div class="card" style="width:300px">
+          <img class="card-img-top" src="img/card-image4.jpg" alt="Card image" style="width:100%">
+		  <div class="card-img-overlay">
+            <h1 class="display-1">Sat</h4>
           </div>
-          <div class="cardcontainer">
-            <b>26th May 2018</b>
-            <p>Exeter 10-27 Saracens</p>
+          <div class="card-body">
+            <h3 class="card-title">26th May 2018</h4>
+            <p class="card-text">Exeter 10-27 Saracens</p>
           </div>
-        </div>    
+        </div>
 	  </div>
-	  <div class="col-lg-4 col-sm-6">
-	    <div class="card">
-          <div class="cardheader">
-            <h1>Sun</h1>
+	  <div class="col-lg-4 col-md-6">
+	    <div class="card" style="width:300px">
+          <img class="card-img-top" src="img/card-image4.jpg" alt="Card image" style="width:100%">
+	      <div class="card-img-overlay">
+            <h1 class="display-1">Sun</h4>
           </div>
-          <div class="cardcontainer">
-            <b>27th May 2018</b>
-            <p>n/a</p>
+          <div class="card-body">
+            <h3 class="card-title">27th May 2018</h4>
+            <p class="card-text">n/a</p>
           </div>
-        </div>    
+        </div>
 	  </div>
 	</div>
   </div>
 </div>
+<br>
 
 <footer>
  <div id="RugbyFooter">
   <div class="container-fluid">
     <div class="row">
-	  <div class="col-sm-4">
+	  <div class="col-md-4 col-sm-6">
 	    <b>Webpages</b>
 	    <ul class="list-unstyled"
 		  <li><a href="http://englishroserugby.com/england/rugby_world_cup.html">Rugby World Cup</a></li>
@@ -275,14 +290,14 @@
 		  <li><a href="http://englishroserugby.com/">Aviva Premiership</a></li>
 		</ul>
 	  </div>
-	  <div class="col-sm-4">
+	  <div class="col-md-4 col-sm-6">
 	    <b>Product Reviews</b>
 	    <ul class="list-unstyled"
 		  <li><a href="http://englishroserugby.com/reviews/top_3_gum_shields.html">Top 3 Gum Shields</a></li>
 		  <li><a href="http://englishroserugby.com/reviews/top_3_rugby_balls.html">Top 3 Rugby Balls</a></li>
 		</ul>
 	  </div>
-	  <div class="col-sm-4">
+	  <div class="col-md-4 col-sm-6">
 	    <b>Useful Links</b>
 	    <ul class="list-unstyled">
 		  <li><a href="http://laws.worldrugby.org/?law=showallbynumbers">World Rugby Laws</a></li>
@@ -303,24 +318,24 @@
 
 <div id="TopButton">
   <div class="container-fluid">
-	<a href="#top"><span class="glyphicon glyphicon-chevron-up"></span>Back to the top</a>
+	<a href="#top"><span class="fa fa-chevron-up"></span>Back to the top</a>
   </div>
 </div>
 
-<div id="rugbyModal" class="modal fade" role="dialog">
+<div class="modal fade" id="rugbyModal">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
+        <h3 class="modal-title">Donate Bitcoin</h3>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Donate Bitcoin</h4>
       </div>
       <div class="modal-body">
         <p>1Dk5UnJWtXGFfkdqJKhmELhgqfAD1Ct9Kh</p>
 		<p>Thank you!</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div> 
     </div>
   </div>
 </div>

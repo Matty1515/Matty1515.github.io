@@ -1,8 +1,4 @@
-p {
-	font-size: 1.2em;
-}
-
-b {
+p, b, i {
 	font-size: 1.2em;
 }
 
@@ -21,6 +17,10 @@ b {
 }
 
 /* Jumbotron */
+
+#PremJumbotron {
+    background-image: url('../img/rugby-wallpaper.jpg');
+}
 
 #RwcJumbotron {
     background-image: url('../img/rugby-world-cup-jumbotron.jpg');
@@ -66,6 +66,14 @@ thead {
 .card-img-overlay {
     text-align: center;
 	color: white;
+}
+
+.card-body p {
+	text-align: center;
+}
+
+.card-body h3 {
+	text-align: center;
 }
 
 /* Footer */
