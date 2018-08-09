@@ -7,3 +7,5 @@ $('.card').on('mouseenter', event => {
 })
 
 });
+
+// Add an animated position banner (#1 Saracens, #2 Exeter etc.) to the top of the page?
