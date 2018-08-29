@@ -1,4 +1,10 @@
+/* Body */
+
 p, b, i {
+	font-size: 1.2em;
+}
+
+#Intro li {
 	font-size: 1.2em;
 }
 
