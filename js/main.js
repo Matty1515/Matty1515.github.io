@@ -6,24 +6,29 @@ $('.card').on('mouseenter', event => {
   $(event.currentTarget).removeClass('card-zoom')
 })
 
-var firstPlace = document.getElementById("first").innerHTML = "#1st " + one.innerHTML;
-var secondPlace = document.getElementById("second").innerHTML = "#2nd " + two.innerHTML;
-var thirdPlace = document.getElementById("third").innerHTML = "#3rd " + three.innerHTML;
-var fourthPlace = document.getElementById("fourth").innerHTML = "#4th " + four.innerHTML;
-var fifthPlace = document.getElementById("fifth").innerHTML = "#5th " + five.innerHTML;
+const bristolStats = {
+	position: "1st",
+	name: "Bristol Rugby",
+	played: "2",
+	won: "1",
+	drawn: "0",
+	lost: "1",
+	difference: "23",
+	points: "5",
+};
 
-var sixthPlace = document.getElementById("sixth").innerHTML = "#6th " + six.innerHTML;
-var seventhPlace = document.getElementById("seventh").innerHTML = "#7th " + seven.innerHTML;
-var eighthPlace = document.getElementById("eighth").innerHTML = "#8th " + eight.innerHTML;
-var ninthPlace = document.getElementById("ninth").innerHTML = "#9th " + nine.innerHTML;
-var tenthPlace = document.getElementById("tenth").innerHTML = "#10th " + ten.innerHTML;
+document.getElementById('bristolTablePosition').innerHTML = bristolStats.position;
+document.getElementById('bristolTableName').innerHTML = bristolStats.name;
+document.getElementById('bristolTablePlayed').innerHTML = bristolStats.played;
+document.getElementById('bristolTableWon').innerHTML = bristolStats.won;
+document.getElementById('bristolTableDrawn').innerHTML = bristolStats.drawn;
+document.getElementById('bristolTableLost').innerHTML = bristolStats.lost;
+document.getElementById('bristolTableDifference').innerHTML = bristolStats.difference;
+document.getElementById('bristolTablePoints').innerHTML = bristolStats.points;
 
-var eleventhPlace = document.getElementById("eleventh").innerHTML = "#11th " + eleven.innerHTML;
-var twelfthPlace = document.getElementById("twelfth").innerHTML = "#12th " + twelve.innerHTML;
-
+// Everything after this tag won't run
 });
-
-
 
 // Add an animated position banner (#1 Saracens, #2 Exeter etc.) to the top of the page? Use getElementById to link
 // the table results to the animated banner.
+
