@@ -26,7 +26,6 @@ document.getElementById('bristolTableLost').innerHTML = bristolStats.lost;
 document.getElementById('bristolTableDifference').innerHTML = bristolStats.difference;
 document.getElementById('bristolTablePoints').innerHTML = bristolStats.points;
 
-// Everything after this tag won't run
 });
 
 // Add an animated position banner (#1 Saracens, #2 Exeter etc.) to the top of the page? Use getElementById to link
