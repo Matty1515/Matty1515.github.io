@@ -1,10 +1,20 @@
-/* Body */
+/* Fonts - use type-scale website and fonts below to change font styles
+font-family: 'Roboto Condensed', sans-serif;
+
+font-size: 20px;
+font-family: 'Roboto', sans-serif;
+line-height: 1.7;
+*/
 
 p, b, i {
 	font-size: 1.2em;
 }
 
 #Intro li {
+	font-size: 1.2em;
+}
+
+#Points li {
 	font-size: 1.2em;
 }
 
