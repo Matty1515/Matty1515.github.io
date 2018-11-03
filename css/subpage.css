@@ -1,21 +1,43 @@
-/* Fonts - use type-scale website and fonts below to change font styles
-font-family: 'Roboto Condensed', sans-serif;
-
-font-size: 20px;
-font-family: 'Roboto', sans-serif;
-line-height: 1.7;
+/*	=====Stylesheet Order=====
+	
+	1. Global Styles 
+	2. Navbar
+	3. Jumbotron
+	4. Text Divs
+	5. Table
+	6. Cards
+	7. Products
+	8. Footer
+	
+	=====Colour Scheme=====
+	
+	Brand - #b30000
+	Background - white;
+	Text - black;
+	
+	=====Fonts=====
+	
+	Heading - 'Roboto Slab', serif;
+	Subheading - 'Roboto Condensed', sans-serif;
+	Body - 'Roboto', sans-serif;
 */
 
+/* Global Styles */
+
 p, b, i {
-	font-size: 1.2em;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.7;
 }
 
-#Intro li {
-	font-size: 1.2em;
+h2, h3 {
+	font-family: 'Roboto Condensed', sans-serif !important;
 }
 
-#Points li {
-	font-size: 1.2em;
+h3 {
+	font-size: 30px !important;
+	line-height: 1.7 !important;
+	font-weight: bold !important;
 }
 
 /* Navbar */
@@ -34,6 +56,24 @@ p, b, i {
 
 /* Jumbotron */
 
+.jumbotron {
+	min-height: 500px;
+	text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+	color: white;
+	background-size: cover;
+	background-repeat: no-repeat;	
+}
+
+.jumbotron h1 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 101px;
+	padding-bottom: 25px;
+}
+
+.jumbotron h2 {
+	font-size: 45px;
+}
+
 #PremJumbotron {
     background-image: url('../img/rugby-wallpaper.jpg');
 }
@@ -46,12 +86,22 @@ p, b, i {
 	background-image: url('../img/england-rugby-jumbotron.jpg');
 }
 
-.jumbotron {
-	height: 500px;
-	text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
-	color: white;
-	background-size: cover;
-	background-repeat: no-repeat;	
+#ReviewJumbotron {
+	background-image: url('../img/reviews-jumbotron3.jpg');
+}
+
+/* Text Divs */
+
+#Intro li {
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.7;
+}
+
+#Points li {
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.7;
 }
 
 /* Table */
@@ -82,7 +132,8 @@ thead {
 
 .card h1 {
 	text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
-	font-size: 7em;
+	font-size: 101px;
+	font-family: 'Roboto Slab', serif;
 }
 
 .card-img-overlay {
@@ -92,6 +143,23 @@ thead {
 
 .card-zoom {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Products */
+
+.product {
+	padding-bottom: 50px;
+}
+
+.product-button a {
+	color: white;
+	font-weight: bold;
+	transition: 0.5s;
+}
+
+.product-button a:hover {
+	color: white;
+	transform: scale(1.1);
 }
 
 /* Footer */
@@ -112,9 +180,13 @@ footer {
 	color: white;
 }
 
+#RugbyFooter .fa {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
 .fa {
     padding: 5px;
-    width: 50px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;

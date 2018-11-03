@@ -11,7 +11,7 @@
   <link rel="icon" href="img/favicon2.ico" type="image/x-icon">
   <meta name="google-site-verification" content="5AlzQ-PhIMzw1_x6EWjjsqivIHvGussK2qLXccrr_mU" />
   
-  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <script src='js/main.js'></script>
@@ -20,6 +20,51 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+
+<!-- Use this to create a fixtures object and print it in the cards and as a banner. Think about loading time, maybe hide the banner until document is ready 
+
+const fixturesList = {
+    Friday: [
+		"Gloucester [19:45] Leicester", 
+		"Harlequins [19:45] Newcastle"
+    ],
+    Saturday: [
+    	"Bath [12:45] Worcester", 
+		"Northampton [13:00] Wasps", 
+		"Saracens [13:00] Sale"
+    ],
+    Sunday: [
+    	"Bristol [15:00] Exeter"
+    ]
+};
+
+$.each(fixturesList, function(index, value) {
+	// Creates banner
+    $("#FixturesBanner").append("<li>" + index + "</li>");
+    $.each(fixturesList[index], function(key, value) {
+        $("#FixturesBanner").append("<li>" + value + "</li>");
+    });
+    
+    // Creates cards
+    if (index === "Friday") {
+    	$("#FridayCard").append("<h3 class='card-title'>" + "16th November 2018" + "</h3>");
+    	$.each(fixturesList['Friday'], function(key, value) {
+			$("#FridayCard").append("<p class='card-text'>" + value + "</p>");
+    	});
+    } else if (index === "Saturday") {
+    	$("#SaturdayCard").append("<h3 class='card-title'>" + "17th November 2018" + "</h3>");
+    	$.each(fixturesList['Saturday'], function(key, value) {
+			$("#SaturdayCard").append("<p class='card-text'>" + value + "</p>");
+    	});
+    } else if (index === "Sunday") {
+    	$("#SundayCard").append("<h3 class='card-title'>" + "18th November 2018" + "</h3>");
+    	$.each(fixturesList['Sunday'], function(key, value) {
+			$("#SundayCard").append("<p class='card-text'>" + value + "</p>");
+    	});
+    }
+});
+
+-->
 
 <h1 hidden>EnglishRoseRugby</h1>
 
@@ -57,16 +102,16 @@
 
 <div class="jumbotron jumbotron-fluid" id="PremJumbotron">
   <div class="container">
-    <h1 class="display-1" >English Rose Rugby</h1>
+    <h1>English Rose Rugby</h1>
 	<br>
-	<h3>Gallagher Premiership Fixtures & Results</h3>
+	<h2>Gallagher Premiership Fixtures & Results</h2>
 	<br>
   </div>
 </div>
 
 <div id="Intro">
   <div class="container">
-	<!-- <p>The top level competition for rugby union clubs in England is the Gallagher Premiership. The league consists of twelve teams with playoffs, European qualification, promotion and relegation to all be played for. The competition started in 1987 with the most successful side being Leicester Tigers with 10 titles. It is currently the 18/19 season (played from 31 August 2018 to the 25 May 2019) as last years' winners Saracens look to defend their title.</p> -->
+	<p>The top level competition for rugby union clubs in England is the Gallagher Premiership. The league consists of twelve teams with playoffs, European qualification, promotion and relegation to all be played for. The competition started in 1987 with the most successful side being Leicester Tigers with 10 titles. It is currently the 18/19 season (played from 31 August 2018 to the 25 May 2019) as last year's winners Saracens look to defend their title.</p>
   </div>
 </div>
 
@@ -218,7 +263,7 @@
   </div>
 </div>
 <br>
-<!--
+
 <div id="Points">
   <div class="container">
 	<p>Teams are awarded league points depending on the result of the match:</p>
@@ -234,7 +279,7 @@
 	</ul>
   </div>
 </div>
--->
+
 <div id="EndSeason">
   <div class="container">
     <p>At the end of the season, the top 4 teams enter the playoff semi-finals. The 1st place team will host the 4th, and the 2nd will host the 3rd. The winners of the semi-finals will then play each other at Twickenham Stadium with the victor being crowned Premiership Champions.</p>
@@ -272,9 +317,9 @@
 		  <div class="card-img-overlay">
             <h1 class="display-1">Fri</h1>
           </div>
-          <div class="card-body">
+          <div class="card-body" id="FridayCard">
             <h3 class="card-title">16th November 2018</h3>
-            <p class="card-text">Gloucester [19:45] Leicester</p>
+			<p class="card-text">Gloucester [19:45] Leicester</p>
 			<p class="card-text">Harlequins [19:45] Newcastle</p>
           </div>
         </div>
@@ -285,7 +330,7 @@
 		  <div class="card-img-overlay">
             <h1 class="display-1">Sat</h1>
           </div>
-          <div class="card-body">
+          <div class="card-body" id="SaturdayCard">
             <h3 class="card-title">17th November 2018</h3>
             <p class="card-text">Bath [12:45] Worcester</p>
 			<p class="card-text">Northampton [13:00] Wasps</p>
@@ -299,7 +344,7 @@
 	      <div class="card-img-overlay">
             <h1 class="display-1">Sun</h1>
           </div>
-          <div class="card-body">
+          <div class="card-body" id="SundayCard">
             <h3 class="card-title">18th November 2018</h3>
             <p class="card-text">Bristol [15:00] Exeter</p>
           </div>
