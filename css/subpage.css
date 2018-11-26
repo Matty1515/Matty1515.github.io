@@ -111,6 +111,18 @@ h3 {
 	line-height: 1.7;
 }
 
+.england-win {
+	background-color: #33cc33;
+	border-radius: 5px;
+	padding: 4px;
+}
+
+.england-loss {
+	background-color: #ff0000;
+	border-radius: 5px;
+	padding: 4px;
+}
+
 /* Table */
 
 .table-responsive {
