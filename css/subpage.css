@@ -81,6 +81,10 @@ h3 {
     }
 }
 
+/* Rugby background presets in case I lose them: 
+-Hue: 0
+-Saturation: 90
+-Lightness: -10*/
 #PremJumbotron {
     background-image: url('../img/rugby-wallpaper.jpg');
 }
@@ -95,6 +99,10 @@ h3 {
 
 #ReviewJumbotron {
 	background-image: url('../img/reviews-jumbotron3.jpg');
+}
+
+#SixJumbotron {
+	background-image: url('../img/six-nations-jumbotron2.jpg');
 }
 
 /* Text Divs */
@@ -179,6 +187,50 @@ thead {
 .product-button a:hover {
 	color: white;
 	transform: scale(1.1);
+}
+
+/* Timeline */
+
+.timeline-item {
+	padding: 3em 2em 2em;
+	position: relative;
+	color: rgba(0, 0, 0, 0.7);
+	border-left: 2px solid #b30000; 
+}
+
+.card h1 {
+	text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+	font-size: 101px;
+	font-family: 'Roboto Slab', serif;
+}
+
+.timeline-item::before {
+	content: attr(date-is);
+	position: absolute;
+	left: 2em;
+	font-weight: bold;
+	top: 1em;
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: .785rem; 
+}
+
+.timeline-item::after {
+	width: 10px;
+	height: 10px;
+	display: block;
+	top: 1em;
+	position: absolute;
+	left: -7px;
+	border-radius: 10px;
+	content: '';
+	border: 2px solid #b30000;
+	background: white; 
+}
+
+.timeline-item:last-child {
+	border-image: linear-gradient(to bottom, #b30000) 60%, rgba(0, 0, 0, 0)) 1 100%; 
 }
 
 /* Footer */
