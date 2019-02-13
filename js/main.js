@@ -26,7 +26,7 @@ const Appearances = (rank, name, club, year, apps, active) => {
 	}
 }
 // Rugby players by appearances as new objects
-const richardWigglesworth = Appearances("1st", "Richard Wigglesworth", "Sale, Saracens", "2002-", 266, true);
+const richardWigglesworth = Appearances("1st", "Richard Wigglesworth", "Sale, Saracens", "2002-", 269, true);
 const steveBorthwick = Appearances("2nd", "Steve Borthwick", "Bath, Saracens", "1998-2014", 265, false);
 const georgeChuter = Appearances("3rd", "George Chuter", "Saracens, Leicester", "1997-2014", 262, false);
 const philDawson = Appearances("3rd", "Phil Dawson", "Newcastle, Northampton, Worcester", "2001-2017", 262, false);
