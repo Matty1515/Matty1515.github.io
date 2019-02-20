@@ -288,6 +288,15 @@ footer {
 }
 
 /* Media Queries */
+@media only screen and (max-width: 767px) {
+	footer {
+		text-align: center;
+	}
+	#RugbyFooter .fa {
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+}
 
 @media only screen and (max-width: 575px) {
     /* For mobile phones. Change to 90px if it fits */
@@ -300,7 +309,7 @@ footer {
 	#RugbyFooter .fa {
 	margin-right: 10px;
 	margin-left: 10px;
-}
+	}
 }
 
 
