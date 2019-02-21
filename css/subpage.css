@@ -288,7 +288,7 @@ footer {
 }
 
 /* Media Queries */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
 	footer {
 		text-align: center;
 	}
