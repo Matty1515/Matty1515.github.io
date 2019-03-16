@@ -125,6 +125,12 @@ h3 {
 	padding: 4px;
 }
 
+.england-draw {
+	background-color: #c1c1c1;
+	border-radius: 5px;
+	padding: 4px;
+}
+
 .england-loss {
 	background-color: #ff0000;
 	border-radius: 5px;
