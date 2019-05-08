@@ -302,51 +302,54 @@ $.each(fixturesList, function(index, value) {
 
 <div id="FixturesHeading">
   <div class="container">
-    <h3>Round 21</h3>
+    <h3>Round 22</h3>
   </div>
 </div>
 
 <div id="PremiershipCards">
   <div class="container">
     <div class="row">
+	  <!-- As there are no games on Friday and Sunday I have set them to display:none on smaller screens -->
 	  <div class="col-lg-4 col-md-6">
-	    <div class="card">
+	    <div class="card" id="FridayCard">
 		  <div id="cardImage">
             <img class="card-img-top" src="img/card-image4.jpg" alt="Card image" style="width:100%">
 		  </div>
 		  <div class="card-img-overlay">
             <h1 class="display-1">Fri</h1>
           </div>
-          <div class="card-body" id="FridayCard">
-            <h3 class="card-title">3rd May 2019</h3>
-			<p class="card-text">Bristol 20-20 Sale</p>
-			<p class="card-text">Harlequins 23-19 Leicester</p>
+          <div class="card-body">
+            <h3 class="card-title">17th May 2019</h3>
+			<p class="card-text">n/a</p>
           </div>
         </div>
 	  </div>
 	  <div class="col-lg-4 col-md-6">
-	    <div class="card" style="width:300px">
+	    <div class="card" id="SaturdayCard" style="width:300px">
           <img class="card-img-top" src="img/card-image4.jpg" alt="Card image" style="width:100%">
 		  <div class="card-img-overlay">
             <h1 class="display-1">Sat</h1>
           </div>
-          <div class="card-body" id="SaturdayCard">
-            <h3 class="card-title">4th May 2019</h3>
-            <p class="card-text">Saracens 38-7 Exeter</p>
-			<p class="card-text">Northampton 38-10 Worcester</p>
-			<p class="card-text">Gloucester 28-19 Newcastle</p>
+          <div class="card-body">
+            <h3 class="card-title">18th May 2019</h3>
+            <p class="card-text">Exeter [16:00] Northampton</p>
+			<p class="card-text">Newcastle [16:00] Bristol</p>
+			<p class="card-text">Leicester [16:00] Bath</p>
+			<p class="card-text">Worcester [16:00] Saracens</p>
+			<p class="card-text">Sale [16:00] Gloucester</p>
+			<p class="card-text">Wasps [16:00] Harlequins</p>
           </div>
         </div>
 	  </div>
 	  <div class="col-lg-4 col-md-6">
-	    <div class="card" style="width:300px">
+	    <div class="card" id="SundayCard" style="width:300px">
           <img class="card-img-top" src="img/card-image4.jpg" alt="Card image" style="width:100%">
 	      <div class="card-img-overlay">
             <h1 class="display-1">Sun</h1>
           </div>
-          <div class="card-body" id="SundayCard">
-            <h3 class="card-title">5th May 2019</h3>
-            <p class="card-text">Bath 29-17 Wasps</p>
+          <div class="card-body">
+            <h3 class="card-title">19th May 2019</h3>
+            <p class="card-text">n/a</p>
           </div>
         </div>
 	  </div>
