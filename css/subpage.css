@@ -7,8 +7,9 @@
 	5. Table
 	6. Cards
 	7. Products
-	8. Footer
-	9. Media Queries
+	8. Timeline
+	9. Footer
+	10. Media Queries
 	
 	=====Colour Scheme=====
 	
@@ -23,7 +24,7 @@
 	Body - 'Roboto', sans-serif;
 */
 
-/* Global Styles */
+/* 1. Global Styles */
 
 html {
 	scroll-behavior: smooth;
@@ -45,7 +46,7 @@ h3 {
 	font-weight: 600;
 }
 
-/* Navbar */
+/* 2. Navbar */
 
 .navbar {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
@@ -59,7 +60,7 @@ h3 {
 	color: #b30000;
 }
 
-/* Jumbotron */
+/* 3. Jumbotron */
 
 .jumbotron {
 	min-height: 500px;
@@ -79,12 +80,13 @@ h3 {
 	font-size: 45px;
 }
 
-
-
 /* Rugby background presets in case I lose them: 
 -Hue: 0
 -Saturation: 90
--Lightness: -10*/
+-Lightness: -10
+They should be saved in Gimp's colorize filter
+*/
+
 #PremJumbotron {
     background-image: url('../img/rugby-wallpaper.jpg');
 }
@@ -105,7 +107,7 @@ h3 {
 	background-image: url('../img/six-nations-jumbotron2.jpg');
 }
 
-/* Text Divs */
+/* 4. Text Divs */
 
 #Intro li {
 	font-size: 20px;
@@ -137,7 +139,7 @@ h3 {
 	padding: 4px;
 }
 
-/* Table */
+/* 5. Table */
 
 .table-responsive {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
@@ -150,7 +152,7 @@ thead {
 	color: white;
 }
 
-/* Cards */
+/* 6. Cards */
 
 #PremiershipCards {
 	margin-bottom: 75px;
@@ -178,7 +180,7 @@ thead {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Products */
+/* 7. Products */
 
 .product {
 	padding-bottom: 50px;
@@ -195,7 +197,7 @@ thead {
 	transform: scale(1.1);
 }
 
-/* Timeline */
+/* 8. Timeline */
 
 .timeline-item {
 	padding: 3em 2em 2em;
@@ -239,7 +241,7 @@ thead {
 	border-image: linear-gradient(to bottom, #b30000) 60%, rgba(0, 0, 0, 0)) 1 100%; 
 }
 
-/* Footer */
+/* 9. Footer */
 
 footer {
 	background-color: #666;
@@ -297,7 +299,8 @@ footer h3 {
 	display: inline;
 }
 
-/* Media Queries */
+/* 10. Media Queries */
+
 @media only screen and (max-width: 991px) {
 	footer {
 		text-align: center;
