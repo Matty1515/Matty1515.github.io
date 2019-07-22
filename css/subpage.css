@@ -30,6 +30,7 @@ html {
 	scroll-behavior: smooth;
 }
 
+/*
 p, b, i {
 	font-size: 20px;
 	font-family: "Roboto", sans-serif;
@@ -44,6 +45,32 @@ h3 {
 	font-size: 30px;
 	line-height: 1.7;
 	font-weight: 600;
+}
+
+*/
+
+p, b, i {
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.7;
+}
+
+h2, h3 {
+	font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+	font-size: 30px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+
+.line {
+  background-color: red;
+  height: 2.5px;
+  width: 50px;
+  margin-bottom: 15px;
 }
 
 /* 2. Navbar */
@@ -109,16 +136,11 @@ They should be saved in Gimp's colorize filter
 
 /* 4. Text Divs */
 
-#Intro li {
-	font-size: 20px;
-	font-family: "Roboto", sans-serif;
+#Points li, #Intro li {
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
 	line-height: 1.7;
-}
-
-#Points li {
-	font-size: 20px;
-	font-family: "Roboto", sans-serif;
-	line-height: 1.7;
+	font-size: 18px;
 }
 
 .england-win {
