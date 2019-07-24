@@ -20,8 +20,8 @@
 	=====Fonts=====
 	
 	Heading - 'Roboto Slab', serif;
-	Subheading - 'Roboto Condensed', sans-serif;
-	Body - 'Roboto', sans-serif;
+	Subheading - 'Oswald', sans-serif;
+	Body - 'Montserrat', sans-serif;
 */
 
 /* 1. Global Styles */
@@ -30,29 +30,20 @@ html {
 	scroll-behavior: smooth;
 }
 
-/*
-p, b, i {
-	font-size: 20px;
-	font-family: "Roboto", sans-serif;
-	line-height: 1.7;
-}
-
-h2, h3 {
-	font-family: "Roboto Condensed", sans-serif;
-}
-
-h3 {
-	font-size: 30px;
-	line-height: 1.7;
-	font-weight: 600;
-}
-
-*/
-
 p, b, i {
 	font-size: 18px;
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.7;
+}
+
+a {
+	color: red;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+a:hover {
+	color: red;
+	text-decoration-style: solid;
 }
 
 h2, h3 {
@@ -81,6 +72,7 @@ h3 {
 
 .navbar a {
 	color: black;
+	text-decoration: none;
 }
 
 .navbar-toggler-icon {
@@ -146,19 +138,28 @@ They should be saved in Gimp's colorize filter
 .england-win {
 	background-color: #33cc33;
 	border-radius: 5px;
-	padding: 4px;
+	padding: 3px 6px;
+	color: white;
+	letter-spacing: 0.5px;
+	font-weight: bold;
 }
 
 .england-draw {
-	background-color: #c1c1c1;
+	background-color: gray;
 	border-radius: 5px;
 	padding: 4px;
+	color: white;
+	letter-spacing: 0.5px;
+	font-weight: bold;
 }
 
 .england-loss {
-	background-color: #ff0000;
+	background-color: red;
 	border-radius: 5px;
 	padding: 4px;
+	color: white;
+	letter-spacing: 0.5px;
+	font-weight: bold;
 }
 
 /* 5. Table */
@@ -212,6 +213,7 @@ thead {
 	color: white;
 	font-weight: bold;
 	transition: 0.5s;
+	text-decoration: none;
 }
 
 .product-button a:hover {
@@ -273,6 +275,10 @@ footer {
 
 footer h3 {
 	font-weight: normal;
+}
+
+footer a {
+	text-decoration: none;
 }
 
 #RugbyFooter b {
