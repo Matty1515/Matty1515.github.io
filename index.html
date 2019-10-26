@@ -141,16 +141,56 @@ $.each(fixturesList, function(index, value) {
 	  <tbody>
 		<tr>
 	      <td>1</td>
-		  <td>Bristol</td>
-		  <td>1</td>
-		  <td>1</td>
+		  <td>Northampton</td>
+		  <td>2</td>
+		  <td>2</td>
 		  <td>0</td>
 		  <td>0</td>
-		  <td>27</td>
-		  <td>5</td>
+		  <td>21</td>
+		  <td>9</td>
 		</tr>
 		<tr>
 	      <td>2</td>
+		  <td>Gloucester</td>
+		  <td>2</td>
+		  <td>2</td>
+		  <td>0</td>
+		  <td>0</td>
+		  <td>18</td>
+		  <td>9</td>
+		</tr>
+		<tr>
+	      <td>3</td>
+		  <td>Sale</td>
+		  <td>2</td>
+		  <td>1</td>
+		  <td>0</td>
+		  <td>1</td>
+		  <td>32</td>
+		  <td>6</td>
+		</tr>
+		<tr>
+	      <td>4</td>
+		  <td>Bristol</td>
+		  <td>2</td>
+		  <td>1</td>
+		  <td>0</td>
+		  <td>1</td>
+		  <td>22</td>
+		  <td>6</td>
+		</tr>
+		<tr>
+	      <td>5</td>
+		  <td>Harlequins</td>
+		  <td>2</td>
+		  <td>1</td>
+		  <td>0</td>
+		  <td>1</td>
+		  <td>2</td>
+		  <td>5</td>
+		</tr>
+		<tr>
+	      <td>6</td>
 		  <td>Exeter</td>
 		  <td>2</td>
 		  <td>1</td>
@@ -160,47 +200,17 @@ $.each(fixturesList, function(index, value) {
 		  <td>5</td>
 		</tr>
 		<tr>
-	      <td>3</td>
-		  <td>Worcester</td>
-		  <td>1</td>
-		  <td>1</td>
-		  <td>0</td>
-		  <td>0</td>
-		  <td>8</td>
-		  <td>4</td>
-		</tr>
-		<tr>
-	      <td>4</td>
-		  <td>London Irish</td>
-		  <td>1</td>
-		  <td>1</td>
-		  <td>0</td>
-		  <td>0</td>
-		  <td>3</td>
-		  <td>4</td>
-		</tr>
-		<tr>
-	      <td>5</td>
-		  <td>Northampton</td>
-		  <td>1</td>
-		  <td>1</td>
-		  <td>0</td>
-		  <td>0</td>
-		  <td>2</td>
-		  <td>4</td>
-		</tr>
-		<tr>
-	      <td>6</td>
-		  <td>Gloucester</td>
-		  <td>1</td>
-		  <td>1</td>
-		  <td>0</td>
-		  <td>0</td>
-		  <td>2</td>
-		  <td>4</td>
-		</tr>
-		<tr>
 	      <td>7</td>
+		  <td>Worcester</td>
+		  <td>2</td>
+		  <td>1</td>
+		  <td>0</td>
+		  <td>1</td>
+		  <td>-11</td>
+		  <td>4</td>
+		</tr>
+		<tr>
+	      <td>8</td>
 		  <td>Bath</td>
 		  <td>2</td>
 		  <td>1</td>
@@ -210,7 +220,17 @@ $.each(fixturesList, function(index, value) {
 		  <td>4</td>
 		</tr>
 		<tr>
-	      <td>8</td>
+	      <td>9</td>
+		  <td>London Irish</td>
+		  <td>2</td>
+		  <td>1</td>
+		  <td>0</td>
+		  <td>1</td>
+		  <td>-31</td>
+		  <td>4</td>
+		</tr>
+		<tr>
+	      <td>10</td>
 		  <td>Saracens</td>
 		  <td>1</td>
 		  <td>0</td>
@@ -220,33 +240,13 @@ $.each(fixturesList, function(index, value) {
 		  <td>1</td>
 		</tr>
 		<tr>
-	      <td>9</td>
-		  <td>Sale</td>
-		  <td>1</td>
-		  <td>0</td>
-		  <td>0</td>
-		  <td>1</td>
-		  <td>-2</td>
-		  <td>1</td>
-		</tr>
-		<tr>
-	      <td>10</td>
-		  <td>Wasps</td>
-		  <td>1</td>
-		  <td>0</td>
-		  <td>0</td>
-		  <td>1</td>
-		  <td>-3</td>
-		  <td>1</td>
-		</tr>
-		<tr>
 	      <td>11</td>
-		  <td>Harlequins</td>
-		  <td>1</td>
+		  <td>Wasps</td>
+		  <td>2</td>
 		  <td>0</td>
 		  <td>0</td>
-		  <td>1</td>
-		  <td>-3</td>
+		  <td>2</td>
+		  <td>-19</td>
 		  <td>1</td>
 		</tr>
 		<tr>
@@ -334,10 +334,10 @@ $.each(fixturesList, function(index, value) {
           </div>
           <div class="card-body">
             <h3 class="card-title">26th October 2019</h3>
-            <p class="card-text">Northampton [14:00] Worcester</p>
-			<p class="card-text">Gloucester [15:00] Wasps</p>
-			<p class="card-text">Harlequins [15:00] Bristol</p>
-			<p class="card-text">London Irish [15:00] Sale</p>
+            <p class="card-text">Northampton 35-16 Worcester</p>
+			<p class="card-text">Gloucester 25-9 Wasps</p>
+			<p class="card-text">Harlequins 22-17 Bristol</p>
+			<p class="card-text">London Irish 7-41 Sale</p>
           </div>
         </div>
 	  </div>
