@@ -1,10 +1,10 @@
-$(document).ready(() => {
+/*$(document).ready(() => {
 
 $('.card').on('mouseenter', event => {
 	$(event.currentTarget).addClass('card-zoom')
 }).on('mouseleave', event => {
 	$(event.currentTarget).removeClass('card-zoom')
-})
+})*/
 
 const stats = {
 	bristolStats: {
@@ -39,7 +39,7 @@ const stuartHooper = Appearances("10th", "Stuart Hooper", "Saracens, Leeds, Bath
 // Use this to complete - https://en.wikipedia.org/wiki/Premiership_Rugby#Player_records
 // Use this to print - https://stackoverflow.com/questions/42563503/print-object-data-in-table-jquery
 
-});
+//});
 
 // Save all team data into javascript objects and use it to create a league table, an animated banner (#1 Saracens, #2 Exeter etc.) and
 // fill in other pieces of text (the current leader is ###).
