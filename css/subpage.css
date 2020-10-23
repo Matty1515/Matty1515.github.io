@@ -30,7 +30,7 @@ html {
 	scroll-behavior: smooth;
 }
 
-p, b, i {
+p, b, i, #Points li {
 	font-size: 18px;
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.7;
@@ -125,6 +125,11 @@ They should be saved in Gimp's colorize filter
 #SixJumbotron {
 	background-image: url('../img/six-nations-jumbotron2.jpg');
 }
+
+#AutJumbotron {
+	background-image: url('../img/autumn-nations-cup-jumbotron.jpg');
+	background-position: bottom;
+}}
 
 /* 4. Text Divs */
 
